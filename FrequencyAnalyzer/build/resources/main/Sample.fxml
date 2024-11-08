@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:controller="Controller.FindTextButtonController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Button fx:id="button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Выбрать файл" onAction="#findText" />
+      <TextArea fx:id="writeText" layoutX="34.0" layoutY="58.0" prefHeight="38.0" prefWidth="533.0" text="Здесь будет консольный вывод" />
+      <Button fx:id="find" layoutX="18.0" layoutY="105.0" mnemonicParsing="false" onAction="#find" text="Найти слова" />
+      <TextArea fx:id="foundedText" layoutX="108.0" layoutY="147.0" prefHeight="200.0" prefWidth="400.0" />
+   </children>
+</Pane>
